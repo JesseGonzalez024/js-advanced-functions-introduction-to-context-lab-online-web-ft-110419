@@ -7,6 +7,7 @@ function createEmployeeRecord(array){
       timeInEvents: [],
       timeOutEvents: []
     }
+    return obj
 }
 
 function createEmployeeRecords(){
