@@ -18,7 +18,7 @@ function createEmployeeRecords(arrayOfArrays){
     return theArray
 }
 
-function createTimeInEvent(){
+function createTimeInEvent(obj, timeStamp){
   let hour = parseInt(timeStamp.split(' ')[1])
     let date = timeStamp.split(' ')[0]
     obj.timeInEvents.push({type: "TimeIn", hour: hour, date: date})
