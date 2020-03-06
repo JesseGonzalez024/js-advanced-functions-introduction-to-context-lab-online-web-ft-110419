@@ -1,6 +1,6 @@
 function createEmployeeRecord(){
   
 }
-function createEmployeeRecord(){
+function createEmployeeRecords(){
   
 }
