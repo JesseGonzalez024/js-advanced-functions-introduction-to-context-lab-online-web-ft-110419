@@ -61,4 +61,3 @@ const createEmployeeRecords = arr => arr.map(arr => createEmployeeRecord(arr));
 
 const findEmployeebyFirstName = (src, name) =>
   src.find(e => e.firstName === name);
-© 2020 GitHub, Inc.
