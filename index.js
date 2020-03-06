@@ -24,3 +24,4 @@ function createTimeInEvent(obj, timeStamp){
     obj.timeInEvents.push({type: "TimeIn", hour: hour, date: date})
     return obj
 }
+
