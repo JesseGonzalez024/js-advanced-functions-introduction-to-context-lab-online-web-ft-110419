@@ -10,7 +10,7 @@ function createEmployeeRecord(array){
     return obj
 }
 
-function createEmployeeRecords(){
+function createEmployeeRecords(arrayOfArrays){
   
 }
 
