@@ -11,7 +11,11 @@ function createEmployeeRecord(array){
 }
 
 function createEmployeeRecords(arrayOfArrays){
-  
+  let theArray = []
+    arryOfArrays.forEach(function(element){
+        theArray.push(createEmployeeRecord(element))
+    })
+    return theArray
 }
 
 function createTimeInEvent(){
