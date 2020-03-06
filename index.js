@@ -64,6 +64,7 @@ function createEmployeeRecords(arryOfArrays) {
     return theArray
 }
 
+function 
 
 function calculatePayroll(array){
     let sum = array.map((e) => allWagesFor(e))
