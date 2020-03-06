@@ -18,6 +18,6 @@ function createEmployeeRecords(arrayOfArrays){
     return theArray
 }
 
-function createTimeInEvent(){
+function createTimeInEvents(){
   
 }
